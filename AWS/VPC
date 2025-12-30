@@ -1,0 +1,64 @@
+☁️ AWS Instance Purchasing Options (Step by Step)
+
+Step 1: To run an EC2 instance in AWS, you first choose how you want to pay.
+
+Step 2: On-Demand lets you pay only for the compute time you use, with no long-term commitment.
+
+Step 3: Reserved Instances require a 1 or 3 year commitment and provide lower pricing.
+
+Step 4: Savings Plans offer discounts when you commit to a consistent amount of usage, with more flexibility.
+
+Step 5: Spot Instances use unused AWS capacity at a very low cost, but AWS can stop them anytime.
+
+Step 6: Dedicated Hosts provide a physical server dedicated to one customer, mainly for compliance or licensing
+
+☁️ AWS VPC – Point-wise Explanation
+1️⃣ VPC (Virtual Private Cloud)
+
+A VPC is a logically isolated virtual network in AWS.
+It allows you to launch resources in a secure and controlled environment using your own IP range.
+
+2️⃣ Subnet
+
+A subnet is a smaller network inside a VPC.
+It helps organize resources and can be public (internet access) or private (no direct internet access).
+
+3️⃣ Internet Gateway (IGW)
+
+An Internet Gateway allows communication between a VPC and the internet.
+It is required for resources in a public subnet to be accessible from the internet.
+
+4️⃣ Route Table
+
+A route table controls how traffic is routed inside the VPC.
+It defines where network traffic should go, such as to the internet gateway or NAT gateway.
+
+5️⃣ NAT Gateway
+
+A NAT Gateway allows instances in a private subnet to access the internet.
+It prevents the internet from initiating connections to private instances.
+
+6️⃣ Security Group
+
+A Security Group acts as a virtual firewall for EC2 instances.
+It controls inbound and outbound traffic and is stateful in nature.
+
+7️⃣ Network ACL (NACL)
+
+A Network ACL is a firewall that works at the subnet level.
+It controls traffic rules and is stateless, meaning rules must be defined for both directions.
+
+8️⃣ Elastic IP (EIP)
+
+An Elastic IP is a static public IP address provided by AWS.
+It is used when a fixed IP is required for internet-facing resources.
+
+9️⃣ Public Subnet
+
+A public subnet is connected to the internet using an Internet Gateway.
+Instances in this subnet can send and receive traffic from the internet.
+
+🔟 Private Subnet
+
+A private subnet does not have direct internet access.
+Instances can access the internet only through a NAT Gateway for outbound traffic..

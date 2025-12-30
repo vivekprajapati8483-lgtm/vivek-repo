@@ -1,0 +1,50 @@
+AWS CloudFront – Notes
+1️⃣ CloudFront
+
+Amazon CloudFront is a Content Delivery Network (CDN) service.
+It delivers content to users with low latency by using edge locations.
+
+2️⃣ Edge Locations
+
+Edge locations are global data centers where content is cached.
+They deliver content to users from the nearest location.
+
+3️⃣ Origin
+
+An origin is the source of the content.
+Examples include S3 buckets, EC2 instances, or load balancers.
+
+4️⃣ Caching
+
+CloudFront caches content at edge locations.
+This reduces load on the origin and improves performance.
+
+5️⃣ Distribution
+
+A distribution defines how content is delivered through CloudFront.
+It links edge locations with the origin.
+
+6️⃣ Security
+
+CloudFront supports HTTPS, SSL/TLS, and AWS WAF integration.
+It protects applications from common web attacks.
+
+7️⃣ Access Control
+
+CloudFront can restrict access using signed URLs and signed cookies.
+Only authorized users can access private content.
+
+8️⃣ Integration
+
+CloudFront integrates with S3, Route 53, WAF, and Shield.
+This helps build secure and scalable architectures.
+
+9️⃣ Performance
+
+CloudFront improves website speed and reduces latency.
+It is ideal for global users.
+
+🔟 Use Cases
+
+CloudFront is used for static websites, video streaming, APIs, and dynamic content delivery.
+It improves performance and security.

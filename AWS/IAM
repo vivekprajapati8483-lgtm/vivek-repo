@@ -1,0 +1,50 @@
+AWS IAM – Notes
+1️⃣ IAM
+
+AWS IAM is a service used to manage users, access, and permissions in AWS.
+It helps control who can access which AWS resources and what actions they can perform.
+
+2️⃣ IAM Users
+
+An IAM user represents a person or application that needs access to AWS.
+Each user can have unique credentials like username, password, and access keys.
+
+3️⃣ IAM Groups
+
+IAM groups are collections of users with similar permissions.
+Permissions are assigned to the group instead of individual users.
+
+4️⃣ IAM Roles
+
+IAM roles provide temporary access to AWS resources.
+They are commonly used by EC2, Lambda, and cross-account access.
+
+5️⃣ IAM Policies
+
+IAM policies are JSON documents that define permissions.
+They specify what actions are allowed or denied on which resources.
+
+6️⃣ Permissions
+
+Permissions define what a user or role can do in AWS.
+They follow the principle of least privilege.
+
+7️⃣ Authentication vs Authorization
+
+Authentication verifies who you are.
+Authorization decides what you are allowed to do.
+
+8️⃣ Access Keys
+
+Access keys are used for programmatic access to AWS.
+They consist of an Access Key ID and a Secret Access Key.
+
+9️⃣ MFA (Multi-Factor Authentication)
+
+MFA adds an extra layer of security.
+It requires a second verification step along with the password.
+
+🔟 IAM Security Best Practices
+
+Avoid using the root account for daily tasks.
+Use IAM roles, enable MFA, and apply least-privilege policies.

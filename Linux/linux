@@ -1,0 +1,267 @@
+📁 File & Directory Commands (1–20)
+
+ls – List files and directories
+
+ls -l – Long listing with permissions
+
+ls -a – Show hidden files
+
+pwd – Show current directory path
+
+cd – Change directory
+
+cd .. – Move one directory up
+
+cd ~ – Go to home directory
+
+mkdir – Create directory
+
+mkdir -p – Create parent directories
+
+rmdir – Remove empty directory
+
+tree – Show directory structure
+
+stat – Detailed file information
+
+realpath – Absolute path of file
+
+basename – Extract filename
+
+dirname – Extract directory path
+
+dir – List directory content
+
+vdir – Verbose directory listing
+
+pathchk – Check path validity
+
+watch ls – Run ls repeatedly
+
+glob – Pattern matching (shell)
+
+📄 File Operations (21–40)
+
+touch – Create empty file
+
+cat – Display file content
+
+less – View file page by page
+
+more – Basic file viewer
+
+head – Show first lines
+
+tail – Show last lines
+
+tail -f – Live log monitoring
+
+cp – Copy file
+
+cp -r – Copy directory
+
+mv – Move or rename file
+
+rm – Delete file
+
+rm -r – Delete directory
+
+rm -f – Force delete
+
+file – Identify file type
+
+split – Split large files
+
+join – Join files
+
+paste – Merge file lines
+
+diff – Compare files
+
+cmp – Compare binary files
+
+stat – File metadata
+
+🔍 Search & Text Processing (41–60)
+
+grep – Search text in files
+
+grep -i – Case-insensitive search
+
+grep -r – Recursive search
+
+egrep – Extended grep
+
+fgrep – Fixed string search
+
+find – Search files by condition
+
+locate – Fast file search
+
+which – Command location
+
+whereis – Binary/source path
+
+awk – Pattern scanning tool
+
+sed – Stream editor
+
+cut – Extract columns
+
+sort – Sort output
+
+uniq – Remove duplicates
+
+wc – Count lines/words
+
+tr – Translate characters
+
+xargs – Build argument list
+
+strings – Extract printable strings
+
+column – Format output
+
+nl – Number lines
+
+🔐 Permissions & Ownership (61–70)
+
+chmod – Change permissions
+
+chmod 755 – rwx for owner
+
+chmod 777 – Full permission
+
+chown – Change owner
+
+chgrp – Change group
+
+umask – Default permission
+
+getfacl – View ACL
+
+setfacl – Set ACL
+
+ls -ld – Directory permissions
+
+id – User identity
+
+👤 User & Group Management (71–80)
+
+useradd – Create user
+
+userdel – Delete user
+
+usermod – Modify user
+
+groupadd – Create group
+
+groupdel – Delete group
+
+passwd – Change password
+
+su – Switch user
+
+sudo – Run as root
+
+whoami – Current user
+
+who – Logged-in users
+
+⚙️ Process Management (81–95)
+
+ps – Process status
+
+ps aux – All processes
+
+top – Live processes
+
+htop – Enhanced process view
+
+atop – Advanced monitoring
+
+kill – Terminate process
+
+kill -9 – Force kill
+
+pkill – Kill by name
+
+bg – Resume in background
+
+fg – Resume in foreground
+
+jobs – Background jobs
+
+nice – Set priority
+
+renice – Change priority
+
+uptime – System running time
+
+watch – Run command repeatedly
+
+💾 Disk & Storage (96–105)
+
+df – Disk usage
+
+df -h – Human-readable disk
+
+du – Directory size
+
+du -sh – Total size
+
+lsblk – Block devices
+
+mount – Mount filesystem
+
+umount – Unmount filesystem
+
+blkid – UUID details
+
+mountpoint – Check mount
+
+findmnt – Mounted filesystems
+
+🌐 Networking (106–115)
+
+ip a – IP address info
+
+ip r – Routing table
+
+ifconfig – Network config
+
+ping – Test connectivity
+
+netstat – Network stats
+
+ss – Socket stats
+
+traceroute – Network path
+
+nslookup – DNS lookup
+
+dig – DNS query
+
+curl – API/web request
+
+📦 Package & System (116–125)
+
+apt update – Update packages
+
+apt install – Install package
+
+apt remove – Remove package
+
+yum install – Install (RHEL)
+
+dnf install – Modern RHEL install
+
+rpm -ivh – Install RPM
+
+snap install – Install snap
+
+date – Date & time
+
+uname -a – Kernel info
+
+free -h – Memory usage

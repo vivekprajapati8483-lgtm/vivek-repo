@@ -1,0 +1,50 @@
+☁️ AWS Route 53 – Notes
+1️⃣ Route 53
+
+Amazon Route 53 is a scalable DNS (Domain Name System) web service.
+It routes user requests to AWS resources like EC2, ELB, or S3.
+
+2️⃣ Domain Registration
+
+Route 53 allows you to register and manage domain names.
+AWS becomes the DNS provider for the domain.
+
+3️⃣ Hosted Zones
+
+A hosted zone contains DNS records for a domain.
+It defines how domain names are translated to IP addresses.
+
+4️⃣ DNS Records
+
+Route 53 supports records like A, AAAA, CNAME, MX, and TXT.
+These records map domain names to resources.
+
+5️⃣ Routing Policies
+
+Route 53 provides multiple routing policies such as Simple, Weighted, Latency-based, Failover, and Geolocation.
+They control how traffic is routed to resources.
+
+6️⃣ Health Checks
+
+Route 53 health checks monitor the health of endpoints.
+Traffic is routed only to healthy resources.
+
+7️⃣ Failover Routing
+
+Failover routing automatically redirects traffic to a backup resource.
+It improves application availability during failures.
+
+8️⃣ Alias Records
+
+Alias records map domains to AWS resources like ELB or CloudFront.
+They are AWS-specific and do not charge for DNS queries.
+
+9️⃣ Security
+
+Route 53 integrates with IAM for access control.
+It supports DNSSEC for domain security.
+
+🔟 Use Cases
+
+Route 53 is used for domain management, traffic routing, and high availability.
+It ensures fast and reliable DNS resolution.

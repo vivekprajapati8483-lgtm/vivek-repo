@@ -1,0 +1,50 @@
+☁️ AWS EFS (Elastic File System) – Notes
+1️⃣ EFS
+
+Amazon EFS is a fully managed, scalable file storage service for EC2.
+It provides a shared file system that multiple instances can access at the same time.
+
+2️⃣ File System Type
+
+EFS uses the NFS (Network File System) protocol.
+It is commonly used for Linux-based workloads that need shared access.
+
+3️⃣ Scalability
+
+EFS automatically scales storage up and down as files are added or removed.
+There is no need to manually provision storage size.
+
+4️⃣ Performance Modes
+
+EFS offers different performance modes like General Purpose and Max I/O.
+These modes help optimize latency or throughput based on application needs.
+
+5️⃣ Throughput Modes
+
+EFS provides Bursting Throughput and Provisioned Throughput.
+This controls how fast data can be read or written.
+
+6️⃣ Availability & Durability
+
+EFS stores data across multiple Availability Zones.
+This ensures high availability and durability of data.
+
+7️⃣ Security
+
+EFS supports encryption at rest and in transit.
+Access is controlled using security groups and IAM policies.
+
+8️⃣ Access Points
+
+EFS Access Points simplify access management for applications.
+They provide application-specific entry points with defined permissions.
+
+9️⃣ Use Cases
+
+EFS is used for shared web servers, content management systems, and home directories.
+It is ideal when multiple EC2 instances need the same data.
+
+🔟 EFS vs EBS (Quick Idea)
+
+EFS is shared and scalable file storage, while EBS is attached to a single EC2.
+EFS supports multiple EC2 instances at the same time.
