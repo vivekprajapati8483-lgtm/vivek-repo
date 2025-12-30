@@ -1,0 +1,50 @@
+AWS CloudWatch – Notes
+1️⃣ CloudWatch
+
+Amazon CloudWatch is a monitoring and observability service in AWS.
+It helps track performance, health, and usage of AWS resources.
+
+2️⃣ Metrics
+
+Metrics are numerical data points like CPU utilization, memory usage, and disk I/O.
+CloudWatch collects metrics automatically from many AWS services.
+
+3️⃣ Logs
+
+CloudWatch Logs store and monitor log files from EC2, Lambda, and applications.
+They help in troubleshooting and debugging issues.
+
+4️⃣ Alarms
+
+CloudWatch Alarms monitor metrics and trigger actions when thresholds are crossed.
+Actions include sending notifications or auto-scaling EC2 instances.
+
+5️⃣ Dashboards
+
+Dashboards provide a visual view of metrics and alarms.
+They help monitor multiple resources from one place.
+
+6️⃣ Events (EventBridge)
+
+CloudWatch Events (now EventBridge) respond to changes in AWS resources.
+They trigger automated actions based on events.
+
+7️⃣ Log Insights
+
+CloudWatch Log Insights is used to query and analyze logs quickly.
+It helps find errors and patterns in large log data.
+
+8️⃣ Monitoring EC2
+
+CloudWatch monitors EC2 metrics like CPU, network, and disk usage.
+Detailed monitoring provides metrics at shorter intervals.
+
+9️⃣ Notifications
+
+CloudWatch integrates with SNS to send alerts.
+Notifications can be sent via email, SMS, or other services.
+
+🔟 Use Cases
+
+CloudWatch is used for performance monitoring, alerting, troubleshooting, and automation.
+It ensures applications remain healthy and available.

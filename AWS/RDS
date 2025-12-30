@@ -1,0 +1,50 @@
+AWS RDS – Notes
+1️⃣ RDS
+
+Amazon RDS is a managed relational database service in AWS.
+It helps users create, operate, and scale databases without managing servers.
+
+2️⃣ Supported Database Engines
+
+RDS supports MySQL, PostgreSQL, MariaDB, Oracle, SQL Server, and Amazon Aurora.
+You can choose the engine based on application needs.
+
+3️⃣ Managed Service
+
+AWS handles patching, backups, monitoring, and maintenance.
+This reduces administrative overhead for users.
+
+4️⃣ Storage
+
+RDS provides different storage types like General Purpose (SSD), Provisioned IOPS, and Magnetic.
+Storage can be scaled as the database grows.
+
+5️⃣ Backups
+
+RDS automatically performs daily backups and transaction log backups.
+Point-in-time recovery is supported.
+
+6️⃣ Multi-AZ Deployment
+
+Multi-AZ creates a standby database in another Availability Zone.
+It improves availability and provides automatic failover.
+
+7️⃣ Read Replicas
+
+Read replicas are used to improve read performance.
+They help reduce load on the primary database.
+
+8️⃣ Security
+
+RDS supports encryption at rest and in transit.
+Access is controlled using IAM, security groups, and VPC.
+
+9️⃣ Monitoring
+
+RDS integrates with CloudWatch for monitoring metrics like CPU, memory, and storage.
+Enhanced monitoring provides deeper insights.
+
+🔟 Use Cases
+
+RDS is used for web applications, ERP systems, and transactional workloads.
+It is ideal when a managed relational database is required.

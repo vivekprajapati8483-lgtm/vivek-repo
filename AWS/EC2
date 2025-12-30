@@ -1,0 +1,50 @@
+AWS EC2 (Elastic Compute Cloud) – Notes
+1️⃣ EC2
+
+Amazon EC2 provides virtual servers in the cloud called instances.
+It allows users to run applications without buying physical hardware.
+
+2️⃣ Instance Types
+
+Instance types define CPU, memory, storage, and networking capacity.
+Examples include General Purpose, Compute Optimized, and Memory Optimized.
+
+3️⃣ AMI (Amazon Machine Image)
+
+An AMI is a template used to launch EC2 instances.
+It includes the operating system, software, and configuration settings.
+
+4️⃣ Instance Purchasing Options
+
+AWS offers different ways to pay for EC2 instances.
+These include On-Demand, Reserved Instances, Savings Plans, Spot Instances, and Dedicated Hosts.
+
+5️⃣ Key Pair
+
+A key pair is used to securely connect to an EC2 instance.
+It consists of a public key stored in AWS and a private key downloaded by the user.
+
+6️⃣ Security Group
+
+A security group acts as a virtual firewall for EC2 instances.
+It controls inbound and outbound traffic and is stateful.
+
+7️⃣ Elastic IP
+
+An Elastic IP is a static public IP address for EC2.
+It allows consistent access even if the instance is stopped or restarted.
+
+8️⃣ Storage (EBS & Instance Store)
+
+EBS provides persistent block storage for EC2 instances.
+Instance Store offers temporary storage that is lost when the instance stops.
+
+9️⃣ Auto Scaling
+
+Auto Scaling automatically adds or removes EC2 instances based on demand.
+It helps maintain performance and reduces costs.
+
+🔟 Load Balancer
+
+A Load Balancer distributes incoming traffic across multiple EC2 instances.
+It improves application availability and fault tolerance.

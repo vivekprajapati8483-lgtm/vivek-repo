@@ -1,0 +1,175 @@
+🔹 Basic & Info (1–5)
+
+docker --version – Check Docker version
+
+docker version – Client & server version
+
+docker info – Docker system details
+
+docker help – Docker help
+
+docker help run – Help for specific command
+
+🔹 Image Commands (6–18)
+
+docker images – List images
+
+docker pull image – Download image
+
+docker push image – Upload image
+
+docker build -t img . – Build image
+
+docker rmi image – Delete image
+
+docker rmi -f image – Force delete image
+
+docker image prune – Remove unused images
+
+docker image prune -a – Remove all unused images
+
+docker history image – Image layers
+
+docker inspect image – Image details
+
+docker tag img newimg – Tag image
+
+docker save img > img.tar – Export image
+
+docker load < img.tar – Import image
+
+🔹 Container Lifecycle (19–35)
+
+docker run image – Create & start container
+
+docker run -d image – Run in background
+
+docker run -it image bash – Interactive shell
+
+docker run --name c1 image – Named container
+
+docker ps – Running containers
+
+docker ps -a – All containers
+
+docker start id – Start container
+
+docker stop id – Stop container
+
+docker restart id – Restart container
+
+docker kill id – Force stop
+
+docker rm id – Remove container
+
+docker rm -f id – Force remove
+
+docker rename old new – Rename container
+
+docker pause id – Pause container
+
+docker unpause id – Resume container
+
+docker wait id – Wait until container stops
+
+docker container prune – Remove stopped containers
+
+🔹 Exec, Logs & Debug (36–45)
+
+docker exec -it id bash – Enter container
+
+docker exec id cmd – Run command
+
+docker logs id – View logs
+
+docker logs -f id – Live logs
+
+docker logs --tail 50 id – Last 50 lines
+
+docker attach id – Attach STDOUT
+
+docker top id – Running processes
+
+docker stats – Resource usage
+
+docker diff id – File changes
+
+docker inspect id – Container details
+
+🔹 Port, Env & Limits (46–50)
+
+docker run -p 8080:80 image – Port mapping
+
+docker run -e VAR=value image – Env variable
+
+docker update --memory 512m id – Limit memory
+
+docker update --cpus 1 id – Limit CPU
+
+docker run --restart always image – Auto restart
+
+🔹 Volume Commands (51–57)
+
+docker volume ls – List volumes
+
+docker volume create vol – Create volume
+
+docker volume inspect vol – Volume details
+
+docker volume rm vol – Delete volume
+
+docker volume prune – Remove unused volumes
+
+docker run -v vol:/data image – Mount volume
+
+docker run -v $(pwd):/app image – Bind mount
+
+🔹 Network Commands (58–64)
+
+docker network ls – List networks
+
+docker network create net – Create network
+
+docker network inspect net – Network details
+
+docker network connect net id – Connect container
+
+docker network disconnect net id – Disconnect
+
+docker network rm net – Delete network
+
+docker network prune – Remove unused networks
+
+🔹 Docker Compose (65–69)
+
+docker-compose up – Start services
+
+docker-compose up -d – Start in background
+
+docker-compose down – Stop services
+
+docker-compose ps – List services
+
+docker-compose logs – View logs
+
+🔹 System & Cleanup (70–74)
+
+docker system df – Disk usage
+
+docker system prune – Clean unused data
+
+docker system prune -a – Clean everything
+
+docker builder prune – Remove build cache
+
+docker events – Real-time events
+
+🔹 Registry & Swarm (75–78)
+
+docker login – Login to registry
+
+docker logout – Logout
+
+docker swarm init – Init swarm
+
+docker service ls – List swarm services

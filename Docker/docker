@@ -1,0 +1,50 @@
+🐳 Docker – Notes
+1️⃣ Docker
+
+Docker is a containerization platform used to build, ship, and run applications.
+It packages the application and its dependencies into a container.
+
+2️⃣ Container
+
+A container is a lightweight, portable runtime environment.
+It runs applications consistently across different systems.
+
+3️⃣ Docker Image
+
+A Docker image is a read-only template used to create containers.
+It contains application code, libraries, and dependencies.
+
+4️⃣ Dockerfile
+
+A Dockerfile is a text file with instructions to build an image.
+It defines how the image should be created step by step.
+
+5️⃣ Docker Engine
+
+Docker Engine is the core service that runs Docker containers.
+It includes the Docker daemon and CLI.
+
+6️⃣ Docker Hub
+
+Docker Hub is a public image registry.
+Users can pull ready-made images or push their own images.
+
+7️⃣ Volumes
+
+Docker volumes are used for persistent data storage.
+They allow data to survive even after a container is deleted.
+
+8️⃣ Docker Network
+
+Docker networking enables communication between containers.
+It supports bridge, host, and overlay networks.
+
+9️⃣ Docker Compose
+
+Docker Compose is used to run multi-container applications.
+It uses a YAML file to define services.
+
+🔟 Docker vs Virtual Machine
+
+Docker containers share the host OS, making them lightweight.
+Virtual machines include a full OS and are heavier.

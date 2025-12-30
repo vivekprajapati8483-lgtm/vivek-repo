@@ -1,0 +1,137 @@
+🔹 What is Git?
+
+Git is a version control system used to track changes in code/files.
+It helps developers save history, work safely, and roll back mistakes.
+
+🔹 Why Git is Used?
+
+Track code changes
+
+Work in teams without overwriting code
+
+Create multiple versions (branches)
+
+Recover old code if something breaks
+
+🔹 What is GitHub?
+
+GitHub is a cloud platform that hosts Git repositories online.
+It allows teams to store, share, collaborate, and manage code remotely.
+
+🔹 Git vs GitHub (Very Important)
+Git	GitHub
+Tool	Platform
+Works locally	Works online
+Tracks versions	Hosts repositories
+No internet required	Internet required
+
+
+🔹 Setup
+
+git --version → Check Git version
+
+git config --global user.name "name" → Set username
+
+git config --global user.email "email" → Set email
+
+git config --list → View config
+
+📁 Repo
+
+git init → Initialize repo
+
+git clone URL → Clone GitHub repo
+
+📄 Status & Stage
+
+git status → Repo status
+
+git add file → Stage file
+
+git add . → Stage all
+
+git restore --staged file → Unstage
+
+💾 Commit
+
+git commit -m "msg" → Commit changes
+
+git commit --amend → Edit last commit
+
+git log → Commit history
+
+git log --oneline → Short history
+
+🌿 Branch
+
+git branch → List branches
+
+git branch name → Create branch
+
+git checkout name → Switch branch
+
+git checkout -b name → Create + switch
+
+git branch -d name → Delete branch
+
+🔀 Merge / Rebase
+
+git merge branch → Merge branch
+
+git rebase main → Rebase branch
+
+🌍 Remote (GitHub)
+
+git remote add origin URL → Add remote
+
+git remote -v → View remote
+
+git push origin main → Push code
+
+git push -u origin main → First push
+
+git pull origin main → Pull updates
+
+git fetch → Fetch only
+
+🔁 Undo / Reset
+
+git restore file → Undo file changes
+
+git reset --soft HEAD~1 → Undo commit (keep changes)
+
+git reset --hard HEAD~1 → Undo commit (delete changes)
+
+git revert commitID → Safe undo
+
+🔍 Diff / Inspect
+
+git diff → Unstaged diff
+
+git diff --staged → Staged diff
+
+git show commitID → Commit details
+
+🏷 Tags
+
+git tag v1.0 → Create tag
+
+git push origin v1.0 → Push tag
+
+📦 Stash
+
+git stash → Save work
+
+git stash list → View stash
+
+git stash apply → Restore stash
+
+🧹 Cleanup
+
+git clean -f → Remove untracked files
+
+🔐 GitHub SSH
+
+ssh-keygen -t rsa -b 4096 → Generate SSH key
+
+ssh -T git@github.com → Test GitHub access

@@ -1,0 +1,50 @@
+AWS Lambda – Notes
+1️⃣ Lambda
+
+AWS Lambda is a serverless compute service.
+It lets you run code without provisioning or managing servers.
+
+2️⃣ Event-Driven
+
+Lambda runs code only when an event occurs.
+Events can come from S3, API Gateway, DynamoDB, or CloudWatch.
+
+3️⃣ Supported Languages
+
+Lambda supports languages like Python, Node.js, Java, Go, and .NET.
+You can choose the language based on your application.
+
+4️⃣ Automatic Scaling
+
+Lambda automatically scales based on the number of incoming requests.
+No manual scaling is required.
+
+5️⃣ Pricing
+
+You pay only for execution time and number of requests.
+There is no charge when the code is not running.
+
+6️⃣ Execution Environment
+
+Lambda runs code in a short-lived execution environment.
+It has limited memory, storage, and execution time.
+
+7️⃣ Security
+
+Lambda uses IAM roles to control permissions.
+It can run inside a VPC for network isolation.
+
+8️⃣ Monitoring
+
+Lambda integrates with CloudWatch for logs and metrics.
+You can monitor errors, duration, and invocations.
+
+9️⃣ Integration
+
+Lambda integrates with many AWS services like S3, API Gateway, SNS, and DynamoDB.
+It is commonly used in serverless architectures.
+
+🔟 Use Cases
+
+Lambda is used for file processing, APIs, automation, and real-time data processing.
+It is ideal for short-running tasks

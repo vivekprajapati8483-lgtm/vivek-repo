@@ -1,0 +1,49 @@
+1️⃣ S3
+
+Amazon S3 is an object storage service used to store and retrieve any amount of data.
+It is highly scalable, durable, and accessible from anywhere.
+
+2️⃣ Bucket
+
+A bucket is a container for storing objects in S3.
+Each bucket has a unique name and is created in a specific AWS region.
+
+3️⃣ Object
+
+An object is a file stored in S3 along with its metadata.
+Each object is identified by a unique key within a bucket.
+
+4️⃣ Storage Classes
+
+S3 provides different storage classes like Standard, IA, Glacier, and Deep Archive.
+They help reduce cost based on access frequency.
+
+5️⃣ Durability & Availability
+
+S3 provides 99.999999999% (11 nines) durability.
+Data is automatically stored across multiple devices and facilities.
+
+6️⃣ Versioning
+
+Versioning keeps multiple versions of an object in the same bucket.
+It helps protect against accidental deletion or overwrite.
+
+7️⃣ Encryption
+
+S3 supports encryption at rest and in transit.
+It protects data using AWS-managed or customer-managed keys.
+
+8️⃣ Access Control
+
+Access to S3 is controlled using IAM policies, bucket policies, and ACLs.
+This ensures only authorized users can access data.
+
+9️⃣ Lifecycle Policy
+
+Lifecycle policies automate moving or deleting objects.
+They are used to transition data to cheaper storage classes.
+
+🔟 Use Cases
+
+S3 is used for backup, file storage, static website hosting, and log storage.
+It is commonly used in data lakes and application storage.
