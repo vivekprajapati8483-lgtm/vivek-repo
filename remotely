@@ -1,0 +1,8 @@
+git init
+git add 
+git commit -m ""
+git remote -v
+git remote add origin repo-link
+git remote set-url origin https://token@repo-link
+git pull --rebase origin master
+git push origin master
